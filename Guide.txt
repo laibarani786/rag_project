@@ -1,0 +1,52 @@
+Project Overview
+
+Building an interactive 
+RAG (Retrieval-Augmented-Generation) Document Q&A application
+using Streamlit, GROQ aand Hugging Face.
+
+1. Upload any PDF(s)
+2. Ask natural language questions about the content
+3. you get concise aanswers grounded in the uploaded documents
+4. maintin conversatioal context across multiple queries
+
+
+such a tool caan be paackaged as a SaaS offering, enabling students aaand developers to monetize by providing intelliget
+document Q&A service
+
+1. Streaamlit
+2. Langchain
+3. Huggig Face Embeddings (convert text chunks into high dimentional vectors)
+4. Chroma : open source vector database for efficient similarity search 
+5. GROQ
+6. dotenv
+
+-----------------------------
+
+1. PDF loading and Pr processing method
+2. Text chunking
+3. embeddings with HuggingFace ( A wrapper around sentence transformers models that convert text into dense numerical values)
+4. Vector Store (Chroma) (fast nearest neighbor search)
+5. History Aware Retrieval
+6. QA chain and LLM
+7. Session Management and Chat UI
+8. Deployment & Business Potential
+
+
+---------------
+Conclusion and learning
+
+1. End to End RAG pipline 
+2. Modulur Design
+3. Conversational context
+
+
+
+1. Open Vs code 
+2. Open folder. (where ever you want to work on project)
+3. convert powershell to cmd 
+4. Create an environment ( python -m venv suleman)
+5. AActivate the environemnt ( suleman\scripts\activate)
+(sulemen)ajkldfbsak
+6. pip install -r requirements.txt 
+7. let's say my code is ready 
+8. streamlit run suleman.py 
