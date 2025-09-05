@@ -74,7 +74,6 @@ if uploaded_files:
     splits = text_splitter.split_documents(all_docs)
 
     # ---- In-memory FAISS vector store ----
-    @st.cache_resource(show_spinner=False)
     def get_vectorstore(_splits, embeddings):
         return FAISS.from_documents(_splits, embeddings)
 
@@ -145,5 +144,7 @@ if uploaded_files:
 
 else:
     st.info("ℹ️ Upload one or more PDFs above to begin.")
+
+
 
 
