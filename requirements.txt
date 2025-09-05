@@ -1,19 +1,14 @@
-# Core
-streamlit>=1.20.0
-python-dotenv>=1.0.0
-
-# LangChain stack (0.3 line)
+# LangChain stack
 langchain>=0.3.14,<0.4.0
 langchain-core>=0.3.14,<0.4.0
 langchain-community>=0.3.14,<0.4.0
 langchain-groq>=0.2.4,<0.3.0
 langchain-huggingface>=0.1.2,<0.2.0
-langchain-chroma>=0.1.0,<0.3.0
 langchain-text-splitters>=0.2.0,<0.4.0
 pydantic>=2.7.4,<3.0.0
 
 # Vector store
-chromadb==0.4.24
+faiss-cpu>=1.7.4
 
 # PDF loading
 pypdf>=3.10.0
@@ -25,3 +20,5 @@ torch>=2.0.1
 
 # Numerical backend
 numpy>=1.24.0,<2.0
+python-dotenv>=1.0.0
+streamlit>=1.20.0
